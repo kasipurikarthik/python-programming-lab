@@ -1,0 +1,15 @@
+num1=input("enter an integer\n")
+print("num1 before type conversion is: ",num1)
+num1=int(num1)
+print("num1 after type conversion is:",num1)
+num2=float(input("enter an floating number\n"))
+print("num2 before type converion is:",num2)
+num3=num1+num2
+print("num3 before type conversion is:",num3)
+num3=int(num3)
+print("num3 after type casting is:",num3)
+num2=int(num2)
+print("num2 after type conversion is:",num2)
+'''num4=input("enter a string\n") 
+num4=int(num4)
+print(num4)'''     #value error:invalid literal for int() with base 10:karthik
