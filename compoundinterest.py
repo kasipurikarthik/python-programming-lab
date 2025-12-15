@@ -1,0 +1,5 @@
+p=float(input("enter the principle amount:"))
+r=float(input("enter the rate of interest:"))
+t=int(input("enter the time period:"))
+CI=p*pow((1+r/100),t)
+print("compund interest for the principle amount is:",CI)
